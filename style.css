@@ -1,8 +1,8 @@
 .gradient-background {
-    background: linear-gradient(300deg, white, rgb(19, 2, 169), rgb(11, 187, 25)) ;
+    background: linear-gradient(300deg,#A58E74, wheat, #) ;
     background-size: 140% 140%;
     animation: gradient-animation 18s ease infinite;
-    background-color: cornflowerblue;
+    background-color: #A58E74;
     
 
 }
@@ -61,3 +61,32 @@ a:link {
             font-size: 24px;
             margin-bottom: 10px;
         }
+
+                        /* Center the pricing card */
+                        .container1 {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            height: 50vh;
+                                
+                            /* Use full viewport height for vertical centering */
+                        }
+            
+                        .card {
+                            width: 400px;
+                            height: 330px;
+                            /* Adjust the width as needed */
+                            text-align: left;
+                            /* Align text inside the card to the left */
+                            padding: 20px;
+                            border: 5px solid black;
+                            /* Optional: Add border for clarity */
+                            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                            background-image: url('./code3.webp');
+                            /* Optional: Add box shadow for depth */
+                            color: wheat;
+                            font-size: large;
+                                            
+                                            }
+                                             
+                                            
